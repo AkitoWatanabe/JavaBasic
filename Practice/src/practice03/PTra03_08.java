@@ -35,6 +35,19 @@ public class PTra03_08 {
 		 *
 		 * ※ プログラムは何行書いても良いです
 		 */
-
+		switch(num) {
+			case 1:
+				money -= 150;
+				break;
+			case 2:
+				money -= 160;
+				break;
+			case 3:
+				money -= 200;
+				break;
+			default:
+				System.out.println("存在しません");
+		}
+		System.out.println("残金" + money + "円");
 	}
 }
