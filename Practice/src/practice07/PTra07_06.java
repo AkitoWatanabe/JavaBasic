@@ -16,6 +16,14 @@ public class PTra07_06 {
 		};
 
 		// ★ 配列arrayに格納されている全ての数字の平均を出力してください
-
+		int sum = 0;
+		int i = 0;
+		for(int[] value:array) {
+			for(int num:value) {
+				sum += num;
+				i++;
+			}
+		}
+		System.out.println((double)sum / i);
 	}
 }
