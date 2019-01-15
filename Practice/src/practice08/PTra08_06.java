@@ -15,7 +15,6 @@ public class PTra08_06 {
 		dispValue('島');
 
 	}
-
 	/*
 	 * 以下の仕様でメソッドを作成してください
 	 *
@@ -30,11 +29,17 @@ public class PTra08_06 {
 	}
 
 	// ★ dispValueを引数intでオーバーロードしてください。処理は同じ
-
+	public static void dispValue(int message) {
+		System.out.println("「" + message + "」");
+	}
 
 	// ★ dispValueを引数doubleでオーバーロードしてください。処理は同じ
-
+	public static void dispValue(double message) {
+		System.out.println("「" + message + "」");
+	}
 
 	// ★ dispValueを引数charでオーバーロードしてください。処理は同じ
-
+	public static void dispValue(char message) {
+		System.out.println("「" + message + "」");
+	}
 }
