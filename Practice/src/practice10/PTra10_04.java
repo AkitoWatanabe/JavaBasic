@@ -23,7 +23,7 @@ public class PTra10_04 {
 		// ★ usersのサイズ分繰り返す制御構文を記述してください
 		//----------- ループ start
 		for(int i = 0; i < users.length; i++) {
-			System.out.println(i + 1 + "人目の情報を入力します");		/* ##には、カウントを入れてください */
+			System.out.println((i + 1) + "人目の情報を入力します");		/* ##には、カウントを入れてください */
 			System.out.println("ユーザID（数字）、 ユーザ名、メールアドレス、パスワードをカンマ区切りで入力してください");
 
 			// ★ コマンドプロンプトに入力された値を、String型の変数lineに格納してください

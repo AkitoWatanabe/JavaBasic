@@ -26,7 +26,7 @@ public class PTra07_05 {
 				array[i] = index;
 
 			// ★ 配列arrayのi番目の値を出力してください
-System.out.println(array[i]);
+				System.out.println(array[i]);
 			}
 		//------for end
 	}

@@ -16,14 +16,10 @@ public class PTra10_02 {
 
 		// Userクラスを作成後に着手してください
 		// ★ User型の変数usを宣言してください
-		User us =new User();
+		User us;
 
 		// ★ 変数usに、Userクラスのインスタンスを作成・代入してください
-		us.userId =0;
-		us.userNm ="";
-		us.mail ="";
-		us.password ="";
-
+		us = new User();
 
 		// ★ 変数usに格納されているインスタンスのuserIdフィールドに、101を代入してください
 		us.userId =101;

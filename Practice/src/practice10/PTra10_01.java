@@ -28,10 +28,7 @@ public class PTra10_01 {
 		// ★ User型の変数usを宣言してください
 		User us =new User();
 		// ★ 変数usに、Userクラスのインスタンスを作成・代入してください
-		us.userId =001;
-		us.userNm ="adm";
-		us.mail ="adm@gmail.com";
-		us.password ="admadm";
+		us = new User();
 
 		// ★ 変数usに格納されているインスタンスの、フィールドuserId, userNm, mail, passwordを出力してください
 		System.out.println(us.userId);
